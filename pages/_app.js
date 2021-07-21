@@ -1,9 +1,9 @@
 import { Provider } from 'next-auth/client';
 import { ThemeProvider } from 'next-themes';
 
-import { HomePageProvider } from '../lib/stores';
+import { HomePageProvider } from '@/lib/stores';
 
-import '../styles/globals.css';
+import '@/styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (

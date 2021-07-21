@@ -2,7 +2,7 @@ import { useTheme } from 'next-themes';
 import { useContext } from 'react';
 import Loader from 'react-loader-spinner';
 
-import { AdminContext } from '../../lib/stores';
+import { AdminContext } from '@/lib/stores';
 
 export default function UpdateSpinner() {
   const { isUpdating } = useContext(AdminContext);

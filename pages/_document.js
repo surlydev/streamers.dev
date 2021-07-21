@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import { isDev } from '../lib/util';
+import { isDev } from '@/lib/util';
 export default class MyDocument extends Document {
   render() {
     return (

@@ -10,9 +10,9 @@ const argv = minimist(process.argv.slice(2), {
   default: { includePaused: false },
 });
 
-import { updateAllChannelDetails, updateAllChannelStatuses } from '../lib/channels';
-import { getChannels, disconnectDB } from '../lib/db';
-import { isProd } from '../lib/util';
+import { updateAllChannelDetails, updateAllChannelStatuses } from '@/lib/channels';
+import { getChannels, disconnectDB } from '@/lib/db';
+import { isProd } from '@/lib/util';
 
 const s3 = new AWS.S3({
   accessKeyId: process.env.AWS_ACCESS_KEY_ID,

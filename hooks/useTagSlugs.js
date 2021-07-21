@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { HomePageContext } from '../lib/stores';
+import { HomePageContext } from '@/lib/stores';
 
 export default function useTagSlugs() {
   const { tagSlugs, setTagSlugs } = useContext(HomePageContext);

@@ -1,7 +1,7 @@
 import { withSentry } from '@sentry/nextjs';
 
-import { getChannels } from '../../lib/db';
-import { updateChannelStatuses } from '../../lib/twitch';
+import { getChannels } from '@/lib/db';
+import { updateChannelStatuses } from '@/lib/twitch';
 
 const handler = async (req, res) => {
   try {

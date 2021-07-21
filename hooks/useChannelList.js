@@ -2,10 +2,10 @@ import { differenceInSeconds, parseISO } from 'date-fns';
 import { sortBy, sumBy } from 'lodash';
 import { useContext, useEffect, useState } from 'react';
 
-import { HomePageContext } from '../lib/stores';
+import { HomePageContext } from '@/lib/stores';
 
-import { channelSortOptions, languageFilterOptions, categoryFilterOptions } from '../lib/options';
-import { CHANNEL_AUTOREFRESH_SECONDS, CACHED_LIVE_CHANNELS_URL } from '../lib/config';
+import { channelSortOptions, languageFilterOptions, categoryFilterOptions } from '@/lib/options';
+import { CHANNEL_AUTOREFRESH_SECONDS, CACHED_LIVE_CHANNELS_URL } from '@/lib/config';
 
 function aggregateStreamTags({ channels, topicSort }) {
   let tagCounts = {};

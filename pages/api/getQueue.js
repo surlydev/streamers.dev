@@ -1,4 +1,4 @@
-import { getQueue } from '../../lib/db';
+import { getQueue } from '@/lib/db';
 
 export default async (req, res) => {
   try {

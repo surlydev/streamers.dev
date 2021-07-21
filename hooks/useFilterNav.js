@@ -6,8 +6,8 @@ import {
   languageFilterOptions,
   categoryFilterOptions,
   topicSortOptions,
-} from '../lib/options';
-import { HomePageContext } from '../lib/stores';
+} from '@/lib/options';
+import { HomePageContext } from '@/lib/stores';
 import useTagSlugs from './useTagSlugs';
 
 // Change the page URL based on the relevant filter state fields
@@ -55,7 +55,7 @@ export default function useFilterNav() {
       .map(([key, value]) => `${key}=${value}`)
       .join('&');
 
-    // Change the page URL. A useEffect in index.html will kick in when router.query changes to update the state
+    // Change the page URL. A useEffect in ChannelList will kick in when router.query changes to update the state
     router.push(querystring.length ? `/?${querystring}` : '/', undefined, { shallow: true });
   };
 }

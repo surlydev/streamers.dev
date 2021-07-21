@@ -6,11 +6,11 @@ import { useEffect, useRef, useContext, useState } from 'react';
 import { useToasts } from 'react-toast-notifications';
 import { XCircleIcon } from '@heroicons/react/solid';
 
-import { AdminContext } from '../../lib/stores';
-import { showToast } from '../../lib/util';
-import useFetch from '../../hooks/useFetch';
-import Button from '../../components/Button';
-import DropDown from '../../components/DropDown';
+import { AdminContext } from '@/lib/stores';
+import { showToast } from '@/lib/util';
+import useFetch from '@/hooks/useFetch';
+import Button from '../Button';
+import DropDown from '../DropDown';
 
 const FILTER_DAYS = [1, 2, 3, 7, 14];
 

@@ -1,6 +1,6 @@
 import { withSentry } from '@sentry/nextjs';
 
-import { getOfflineChannels } from '../../lib/db';
+import { getOfflineChannels } from '@/lib/db';
 
 const handler = async (req, res) => {
   try {

@@ -3,9 +3,9 @@ import { map, keyBy } from 'lodash';
 import pluralize from 'pluralize';
 import 'dotenv/config';
 
-import { twitchGetStreamsAll, twitchGetUsersByIds } from '../lib/twitch_api';
-import { gameIds, codingTagIds } from '../lib/config';
-import prisma from '../lib/prisma';
+import { twitchGetStreamsAll, twitchGetUsersByIds } from '@/lib/twitch_api';
+import { gameIds, codingTagIds } from '@/lib/config';
+import prisma from '@/lib/prisma';
 
 consoleStamp(console, { format: ':date(yyyy-mm-dd HH:MM:ss.l).gray :label(7)' });
 

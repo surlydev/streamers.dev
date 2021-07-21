@@ -1,4 +1,4 @@
-import { getSnapshots } from '../../lib/db';
+import { getSnapshots } from '@/lib/db';
 
 export default async (req, res) => {
   try {

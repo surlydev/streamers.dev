@@ -2,8 +2,8 @@ import { useState, useContext } from 'react';
 import { useToasts } from 'react-toast-notifications';
 import { useForm } from 'react-hook-form';
 
-import { AdminContext } from '../../lib/stores';
-import { showToast } from '../../lib/util';
+import { AdminContext } from '@/lib/stores';
+import { showToast } from '@/lib/util';
 
 export default function AddChannelForm() {
   const { setIsUpdating } = useContext(AdminContext);

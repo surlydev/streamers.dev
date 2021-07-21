@@ -1,12 +1,13 @@
 import { useRouter } from 'next/router';
 import { useContext, useEffect } from 'react';
 
-import StreamTags from './StreamTags';
-import ChannelViewerCounts from './ChannelViewerCounts';
+import StreamTags from '@/components/Home/StreamTags';
+import ChannelViewerCounts from '@/components/Home/ChannelViewerCounts';
 
-import { HomePageContext } from '../lib/stores';
-import { channelSortOptions, languageFilterOptions, categoryFilterOptions } from '../lib/options';
-import useFilterNav from '../hooks/useFilterNav';
+import useFilterNav from '@/hooks/useFilterNav';
+
+import { HomePageContext } from '@/lib/stores';
+import { channelSortOptions, languageFilterOptions, categoryFilterOptions } from '@/lib/options';
 
 function SortFilterButtons() {
   const {

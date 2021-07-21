@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
   TwitterButton,
   GitHubButton,
@@ -7,7 +5,7 @@ import {
   DiscordButton,
   YouTubeButton,
   HomepageButton,
-} from './SocialButton';
+} from '@/components/Home/SocialButton';
 
 export default function SocialButtons({ channel }) {
   return (

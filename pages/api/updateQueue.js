@@ -1,9 +1,9 @@
 import { getSession } from 'next-auth/client';
 import { withSentry } from '@sentry/nextjs';
 
-import { updateQueueItem } from '../../lib/db';
-import { addNewChannel } from '../../lib/channels';
-import { adminAuthorised } from '../../lib/util';
+import { updateQueueItem } from '@/lib/db';
+import { addNewChannel } from '@/lib/channels';
+import { adminAuthorised } from '@/lib/util';
 
 const handler = async (req, res) => {
   const { id, status, backlog } = req.body;

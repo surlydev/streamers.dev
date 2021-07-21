@@ -5,6 +5,7 @@ const slugify = require('slugify');
 const prisma = new PrismaClient();
 
 const moduleExports = {
+  webpack5: false,
   // handles shorter URLs for topics (e.g. https://streamers.dev/react)
   redirects: async () => {
     return (await prisma.keyword.findMany()).map((keyword) => {

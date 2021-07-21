@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 
 import ThemeChanger from '@/components/ThemeChanger';
 
-import RiverIcon from '../../pages/river-icon.png';
 import { TAGLINE } from '@/lib/config';
 
 function NavLink({ href, children }) {
@@ -27,7 +26,7 @@ export default function NavBar() {
     <div className='flex flex-row place-items-center mb-4 sm:mb-6 gap-2 sm:px-1 shadow sm:rounded-lg text-lg bg-white dark:bg-gray-600'>
       <div className='ml-2 h-8 w-8 my-2 relative'>
         <NavLink href='/'>
-          <Image src={RiverIcon} />
+          <Image src='/river-icon.png' layout='fill' />
         </NavLink>
       </div>
       <div className='flex-grow cursor-pointer'>

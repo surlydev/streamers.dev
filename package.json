@@ -63,7 +63,7 @@
     "react-icons": "^4.2.0",
     "react-image": "^4.0.3",
     "react-loader-spinner": "^4.0.0",
-    "react-query": "^3.19.6",
+    "react-query": "^3.39.3",
     "react-toast-notifications": "^2.5.1",
     "slugify": "^1.6.0",
     "superjson": "^1.7.5",

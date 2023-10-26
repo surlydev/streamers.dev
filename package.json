@@ -49,7 +49,7 @@
     "iso-language-codes": "^1.1.0",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
-    "next": "^11.1.0",
+    "next": "^13.5.0",
     "next-auth": "^3.28.0",
     "next-seo": "^4.26.0",
     "next-themes": "^0.0.15",

@@ -38,7 +38,7 @@
     "@heroicons/react": "^1.0.3",
     "@next-auth/prisma-adapter": "^0.5.3",
     "@prisma/client": "^2.29.1",
-    "@sentry/nextjs": "^6.11.0",
+    "@sentry/nextjs": "^8.0.0",
     "apexcharts": "^3.27.3",
     "aws-sdk": "^2.968.0",
     "chart.js": "^3.5.0",
@@ -49,8 +49,8 @@
     "iso-language-codes": "^1.1.0",
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
-    "next": "^11.1.0",
-    "next-auth": "^3.28.0",
+    "next": "^12.2.3",
+    "next-auth": "^4.0.1",
     "next-seo": "^4.26.0",
     "next-themes": "^0.0.15",
     "pluralize": "^8.0.0",
@@ -69,7 +69,7 @@
     "superjson": "^1.7.5",
     "twitch": "^4.6.5",
     "twitch-auth": "^4.6.5",
-    "winston": "^3.3.3",
+    "winston": "^3.3.4",
     "winston-daily-rotate-file": "^4.5.5"
   },
   "devDependencies": {

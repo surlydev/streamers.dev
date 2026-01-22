@@ -47,7 +47,7 @@
     "date-fns": "^2.23.0",
     "dotenv": "^10.0.0",
     "iso-language-codes": "^1.1.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "minimist": "^1.2.5",
     "next": "^11.1.0",
     "next-auth": "^3.28.0",
